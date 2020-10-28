@@ -19,9 +19,9 @@ const Home = ({ userObj }) => {
   }, []);
   return (
     <>
-      <div>
+      {/* <div>
         <h1>Hi</h1>
-      </div>
+      </div> */}
       <div className="container">
         <NweetFactory userObj={userObj} />
         <div style={{ marginTop: 30 }}>
